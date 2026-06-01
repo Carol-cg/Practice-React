@@ -1,12 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import Welcome2 from './components/Welcome2';
-import UserCard2 from './components/UserCard2';
+import "./App.css";
+
+import Welcome from "./components/Welcome";
+import UserCard2 from "./components/UserCard2";
+import Counter from "./components/Counter";
 
 function App() {
   return (
-    <div ClassName="card">
-      <Welcome2 />
+    <div className="card">
+      <Welcome />
+
+      <Counter />
 
       <UserCard2
         name="Carol"
@@ -25,7 +28,7 @@ function App() {
       <UserCard2
         name="Caleb"
         role="Designer"
-        email="Caleb@email.com"
+        email="caleb@email.com"
         location="Los Angeles"
       />
     </div>
@@ -33,5 +36,4 @@ function App() {
 }
 
 export default App;
-
 
