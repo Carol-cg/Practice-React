@@ -5,7 +5,7 @@ import UserCard2 from './components/UserCard2';
 
 function App() {
   return (
-    <div>
+    <div ClassName="card">
       <Welcome2 />
 
       <UserCard2
